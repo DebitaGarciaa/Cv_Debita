@@ -111,10 +111,10 @@ header {
     margin-bottom: 8px;
     font-size: 14px;
 }
-/* Efek Hover pada Kotak */
+
 .pendidikan, .kemampuan, .pengalaman {
     width: 48%;
-    background: #f9f9f9; /* Warna dasar tetap */
+    background: #f9f9f9; 
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -124,11 +124,11 @@ header {
 
 /* Efek hover: Bayangan maroon tipis */
 .pendidikan:hover, .kemampuan:hover, .pengalaman:hover {
-    transform: translateY(-3px); /* Sedikit naik */
-    box-shadow: 0 8px 15px rgba(128, 0, 0, 0.4); /* Bayangan maroon tipis */
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 15px rgba(128, 0, 0, 0.4); 
 }
 
-/* Untuk menengahkan div pengalaman */
+
 .pengalaman {
     width: 60%;
     margin: auto;
@@ -168,7 +168,7 @@ header {
     text-shadow: 0 0 5px rgba(255, 204, 0, 0.8);
 }
 
-/* Tambahkan emotikon di bagian kontak */
+
 .kontak ul li:nth-child(1)::before {
     content: "📧 ";
 }
